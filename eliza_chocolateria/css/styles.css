@@ -1,0 +1,237 @@
+@font-face{
+    font-family: fuente;
+        src:url(fuente.ttf);
+    }
+  
+
+/*** Iconos de redes sociales **/
+.sociales ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sociales ul li{
+    position: relative;
+    display: inline-block;
+}
+.sociales ul li a::before{
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    content: '\f08e';
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: #006d33;
+}
+.sociales ul li a[href*="facebook.com"]::before{
+    content: '\f230';
+}
+
+.sociales ul li a[href*="twitter.com"]::before{
+    content: '\f081';
+}
+
+.sociales ul li a[href*="instagram.com"]::before{
+    content: '\f16d';
+}
+
+.sociales ul li a[href*="pinterest.com"]::before{
+    content: '\f0d2';
+}
+.sociales ul li a[href*="youtube.com"]::before{
+    content: '\f16a';
+}
+/**Navegacion**/
+
+.navegacion{
+    background-color: #006d33;
+    color: #ecb210;
+}
+.navbar-light .navbar-toggler{
+    background-color:  #ecb210;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover{
+    color:  #ffffff;
+}
+.nav-principal{
+    background-image: url(../img/moti.png),
+                      url(../img/moti.png);
+   
+   background-size: 200px;
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+}
+.nav-link{
+    color: #ffffff;
+    font-size: 1.4rem;
+    transition: color .5s ease-in-out;
+}
+.nav-link:hover{
+   color: #ecb210;
+}
+.imagenSlider{
+    height: 70vh;}
+span,p, .carousel-caption h3{
+    font-family: fuente;
+    
+}
+h2 span{
+    color: #006d33;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+.encabezado span{
+    font-size: 2.3rem;
+    color: #fff;
+}
+h3{
+    font-family: fuente;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    font-size: 20px;
+}
+.nuevo-sitio p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #979797;
+    font-size: 1.6rem;
+}
+/**Imagen Sevicio**/
+.imagen-servicio img{
+    border: 6px solid#fff;
+    transition: transform .3s ease;
+}
+.imagen-servicio img:hover{
+    transform: scale(1.2);
+}
+.servicio-info{
+    background-color: #006d338a;
+    margin-top: -5rem;
+}
+.servicio-info .btn-primary{
+    border-radius: 0;
+    background-color: #ecb210;
+    border: none;
+}
+/**horarios*/
+
+.horario{
+    background-color: #006d33;
+    color: #fff ;
+}
+
+.horario h2{
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.horario .table{
+    border: 2px solid #ecb210;
+}
+.horario .table thead{
+    background-color: #ecb210;
+}
+.horario .table td,
+.horario .table thead th{
+    border: none;
+}
+.horario .table tbody tr td{
+    padding: .35rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.bg-horario{
+    background-image: url(../img/vagonl14.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px;
+}
+.productos .card{
+    border: none;
+}
+.productos .card a{
+    color: black;
+}
+.productos .card a:hover{
+    text-decoration: none;
+}
+.productos .card h3{
+    color: #006d33;
+    font-size: 2rem;
+}
+.productos .card .precio{
+    font-size: 1.6rem;
+    color: #979797;
+}
+/**Reservaciones**/
+.citas{
+    background-image: url(../img/vagonl09.jpg);
+   
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+.citas h3{
+    font-size: 3.5rem;
+}
+.citas p{
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+}
+.citas .btn-primary{
+    background-color: #ecb210;
+    border: 0;
+    padding: 1rem 5rem;
+    border-radius: 0;
+    font-family: fuente;
+    font-size: 1.6rem;
+}
+.copyright{
+    color: #979797;
+}
+.hero{
+    position: relative;
+}
+.hero h2{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    background-color: #006d33;
+    font-family: fuente;
+    font-weight: 900;/*hace la fuente gruesa*/
+    color: #fff;
+    font-size: 2.8rem;
+}
+.contenido-principal p{
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+aside{
+    background-color: #006d33;
+    color: #fff;
+}
+/**Sercicos acordeon**/
+#servicios .card-header{
+    background-color: #006d33;
+    padding: 0 1.25rem;
+}
+#servicios .card-header .btn-link{
+    color: #ffffff;
+    font-family: fuente;
+    font-size: 1.8rem;
+}
+
+aside .nuevos{
+    padding: 1rem;
+}
+aside .cupon{
+    border-style: dashed;
+    
+    padding: 1.5rem;
+}
